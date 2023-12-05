@@ -8,5 +8,8 @@
     "terminal.foreground": "#eeff00",
     "statusBar.background": null,
     "activityBar.background": null
-  }
+  },
+  "cSpell.words": [
+    "purch"
+  ]
 }

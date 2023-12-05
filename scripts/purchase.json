@@ -1,0 +1,137 @@
+{
+    "productCode": "prc",
+    "requiredAge": {
+      "month": 0,
+      "year": 0
+    },
+    "entry": "DAILY",
+    "serviceEligibility": "IMMEDIATE",
+    "sources": [
+      {
+        "id": 0,
+        "name": "string",
+        "sourceType": "DEFERRAL",
+        "contributorType": "EMPLOYEE",
+        "vestingId": 0,
+        "requiredAge": {
+          "month": 0,
+          "year": 0
+        },
+        "entry": "DAILY",
+        "serviceEligibility": "IMMEDIATE",
+        "planSourceFrequency": "PAYROLL",
+        "effectiveDate": "2023-11-27",
+        "formula": "string",
+        "included": true,
+        "grandfatherDate": "2023-11-27"
+      }
+    ],
+    "allowsLoans": true,
+    "allowsHardshipWithdrawals": true,
+    "autoEnrollmentType": "QACA",
+    "numberOfEmployees": 10,
+    "companyName": "Acme, Inc",
+    "planName": "Acme Retirement Trust",
+    "irsPlanNumber": "001",
+    "companyPhone": "111-111-1111",
+    "sponsorFirstName": "JOE",
+    "sponsorLastName": "SMITH",
+    "sponsorEmail": "joe@aol.com",
+    "stateCode": "AZ",
+    "planId": 0,
+    "planEffectiveDate": "2023-11-27",
+    "autoDeferralType": "ESCALATING",
+    "eligibilityCalculationMethod": "ELAPSED_TIME",
+    "portfolioCode": "string",
+    "pepCode": "string",
+    "minimumAutoDeferralPercentage": 0,
+    "maximumAutoDeferralPercentage": 0,
+    "yearlyAutoDeferralPercentageIncrease": 0,
+    "addSources": [
+      {
+        "id": 0,
+        "name": "string",
+        "sourceType": "DEFERRAL",
+        "contributorType": "EMPLOYEE",
+        "vestingId": 0,
+        "requiredAge": {
+          "month": 0,
+          "year": 0
+        },
+        "entry": "DAILY",
+        "serviceEligibility": "IMMEDIATE",
+        "planSourceFrequency": "PAYROLL",
+        "effectiveDate": "2023-11-27",
+        "formula": "string",
+        "included": true,
+        "grandfatherDate": "2023-11-27"
+      }
+    ],
+    "attributes": [
+      {
+        "key": "string",
+        "value": "string"
+      }
+    ],
+    "advisor": {
+      "advisorFeeCollectionSource": "NONE",
+      "fixedAmount": 0,
+      "bpsAmount": 0,
+      "requireReview": true,
+      "advisorNpn": "string",
+      "advisorCrd": "string"
+    },
+    "employerPaidParticipantFees": true,
+    "tpa": {
+      "feeCollectionSource": "NONE",
+      "fixedAmount": 0,
+      "bpsAmount": 0,
+      "disbursedByUbiquity": true,
+      "tpaEin": "string",
+      "processingFees": [
+        {
+          "type": "string",
+          "amount": 0
+        }
+      ],
+      "users": [
+        {
+          "email": "string",
+          "roles": [
+            "string"
+          ]
+        }
+      ]
+    },
+    "advisors": {
+      "feeCollectionSource": "NONE",
+      "fixedAmount": 0,
+      "bpsAmount": 0,
+      "disbursedByUbiquity": true,
+      "actors": [
+        {
+          "advisorNpn": "string",
+          "advisorCrd": "string",
+          "advisorType": "RR",
+          "advisorService": "NONE",
+          "commissionPct": 0,
+          "requireReview": true,
+          "isPrimary": true,
+          "reason": "string",
+          "roles": [
+            "string"
+          ]
+        }
+      ],
+      "requireReview": true
+    },
+    "trustees": [
+      {
+        "firstName": "string",
+        "lastName": "string",
+        "email": "string"
+      }
+    ],
+    "isConversion": true,
+    "lastRestatementDate": "2023-11-27"
+  }
